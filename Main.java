@@ -104,3 +104,73 @@ public class topictwo {
         }
     }
 }
+
+public class topicthree {
+    public static void main(String[] args) {
+
+        // DAY 4 - LOOPS
+
+
+        // Q1 - Print numbers from 1 to 10
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+
+
+        // Q2 - Print even numbers from 1 to 20
+
+        for (int i = 1; i <= 20; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+
+
+        // Q3 - Print numbers from 10 to 1
+
+        for (int i = 10; i >= 1; i--) {
+            System.out.println(i);
+        }
+
+
+        // Q4 - Multiplication table of 5
+
+        int number = 5;
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(number + " x " + i + " = " + (number * i));
+        }
+
+
+        // Q5 - Sum of numbers from 1 to 10
+
+        int sum = 0;
+
+        for (int i = 1; i <= 10; i++) {
+            sum = sum + i;
+        }
+
+        System.out.println("Sum = " + sum);
+
+
+        // Q6 - While loop
+
+        int i = 1;
+
+        while (i <= 5) {
+            System.out.println("Java");
+            i++;
+        }
+
+
+        // Q7 - Do-while loop
+
+        int j = 1;
+
+        do {
+            System.out.println(j);
+            j++;
+        } while (j <= 5);
+    }
+}
